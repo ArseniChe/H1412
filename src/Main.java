@@ -3,7 +3,10 @@ public class Main {
 //        Car car = new Car("Citroen", 2017, "C4 Cactus");
 //        System.out.println(car);
 
-        Vehicle vehicle = new Vehicle("Citroen", 2017);
-        vehicle.displayInfo();
+//        Vehicle vehicle = new Vehicle("Citroen", 2017);
+//        vehicle.displayInfo();
+
+        Car car = new Car("Citroen", 2017, "C4 Cactus");
+        car.displayInfo();
     }
 }
