@@ -5,4 +5,7 @@ public class Vehicle {
         this.brand = brand;
         this.year = year;
     }
+    public void displayInfo(){
+        System.out.println(String.format("Марка: %s, год выпуска: %d", brand, year));
+    }
 }
